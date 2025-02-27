@@ -14,7 +14,7 @@ To improve efficiency and responsiveness, we will incorporate Real-Time Operatin
 ### Sensor Table
 | Sensor Type            | IMU     | Thermocouple  | Lidar     | Ultrasonic   | Hall-effect   | Encoder     |
 |------------------------|---------|---------------|-----------|--------------|---------------|-------------|
-| Functionality          |  Measures acceleration and angular velocity | Measures temperature by detecting changes in voltage | Utilizes laser pulses to measure distance from an object | Detects the presence of magnetic fields to measure position or speed | Measures rotational or linear position by generating pulses as it moves|
+| Functionality          |  Measures acceleration and angular velocity | Measures temperature by detecting changes in voltage | Utilizes laser pulses to measure distance from an object | Measures distance using sound waves to detect nearby objects | Detects the presence of magnetic fields to measure position or speed | Measures rotational or linear position by generating pulses as it moves|
 
 
 
