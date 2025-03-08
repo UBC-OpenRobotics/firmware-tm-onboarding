@@ -3,6 +3,8 @@
 
 #include <stdint.h>
 #include "usart.h"
+#include "stm32h7xx_hal.h"
+#include "stm32h723xx.h"
 
 #define TFMINI_FRAME_HEADER 0x59
 #define TFMINI_FRAME_SIZE 9
