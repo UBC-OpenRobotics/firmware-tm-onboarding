@@ -25,7 +25,6 @@ int sensor_read(TFminiData *data) {
     // Extract data
     data->distance = buffer[2] | (buffer[3] << 8);
     data->strength = buffer[4] | (buffer[5] << 8);
-    data->temperature = (buffer[6] | (buffer[7] << 8)) / 8; // Convert to °C
 
     return 0; // Success
 }
