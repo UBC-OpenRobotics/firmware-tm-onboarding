@@ -19,6 +19,7 @@ namespace UltrasonicSensor
         uint16_t trigPin;
         GPIO_TypeDef* echoPort;
         uint16_t echoPin;
+        void delayMicroseconds(uint16_t us);
     };
 }
 
