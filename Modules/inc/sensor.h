@@ -10,7 +10,6 @@
 typedef struct {
     uint16_t distance;
     uint16_t strength;
-    uint8_t temperature;
 } TFminiData;
 
 void sensor_init(void);
